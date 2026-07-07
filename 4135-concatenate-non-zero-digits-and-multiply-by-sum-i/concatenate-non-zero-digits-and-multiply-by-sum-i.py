@@ -12,8 +12,6 @@ class Solution(object):
             if ch != '0':
                 result += int(ch)
                 x += ch 
-            else:
-                is_there = True
         if x == "":
             x = 0
         else:
